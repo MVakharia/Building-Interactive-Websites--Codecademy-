@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <!--Due to the 'defer' attribute,
+    this script will execute after all the HTML has been parsed,
+     changing the paragraph with id 'test' to "Goodbye World!"-->
+    <script src="getElementByID.js" defer></script>
 </head>
 <body>
+
+<p id="test">Hello World!</p>
 
 </body>
 </html>
