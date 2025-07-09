@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+#container{
+    background: #141c3a;
+    margin: 0;
+    display: block;
+    float: left;
+    width: 100vw;
+    height: 100vh;
+}
+#view-button{
+    width: 380px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    display: block;
+    background-color: #6df0c2;
+    margin: 20px auto;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+#codey{
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+}
+#close-button{
+    width: 380px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    display: none;
+    background-color: #fd4d3f;
+    margin: 20px auto 0;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
